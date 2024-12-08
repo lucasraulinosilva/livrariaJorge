@@ -14,37 +14,37 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
 
     <nav class="navbar bg-body-terciary p-3">
         <div class="container-fluid nav justify-content-center">
-            <ul class="nav ms-5 nav-underline">
+            <ul class="nav nav-underline">
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="../index.html" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="listarLivros.html" class="nav-link active">Listar livros</a>
+                    <a href="listarLivros.html" class="nav-link active">Listar livros</a> 
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">Cadastrar livros</a>
+                    <a href="cadastrarLivros.html" class="nav-link">Cadastrar livros</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">Deletar livro</a>
+                    <a href="deletarLivros.html" class="nav-link">Deletar livro</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">Atualizar livro</a>
+                    <a href="atualizarLivros.html" class="nav-link">Atualizar livro</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="container col-6 bloco1">
+    <div class="container col-4 bloco1 overflow-y-scroll" id="livros" style="height: 500px;">
     </div>
 
-    <script src="listar.js"></script>
+    <script src="../scripts/listar.js"></script>
 </body>
 
 </html>
